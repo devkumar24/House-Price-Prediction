@@ -13,5 +13,31 @@ the output of the test dataset.
         ```
     - Next we will move forward will some of the visualization part, like we plot some various types of plots using matplotlib and seaborn. These 2 libraries are mostly used in the data visualization task. 
     
-        So, will start off with plotting the normal distribution curve of our target variable.
+        - So, will start off with plotting the normal distribution curve of our target variable.
+
+            We have created a barplot using seaborn, and finds that our target variable is not in normal distribution, and we have seen its QQplot, finds that our target variable is in positive skewed.
+
+
+            ![normal distribution](/plots/normal_distribution_target_var.png) 
+                
+            This plot shows Normal Distribution of Sale Price
+
+
+            ![skewness in target variable](/plots/skewness_target_var.png)
+              
+            It shows that our target variable has +ve skewness
+
+
+            - Now, we will solve this problem using log transformation of the data, which result in the normal distribution of the data.
+
+                ![log transformation of target variable](/plots/improve_normal_dist.png)
+                
+                We have normally distributed data using log transformation of data.
+
+
+        - Next, we will see the co-relation of our data, as this is important part of the data, it will tell us which features are more important in the dataset.
+
+
+
+                
         
